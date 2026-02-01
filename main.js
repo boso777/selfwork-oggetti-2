@@ -92,10 +92,11 @@ let agenda = {
 
 agenda.showAllContacts();
 
-agenda.eraseContact(`Jenny`)
+agenda.showContact('Nicola');
 
-agenda.addContact(`Mario`,33333)
+agenda.eraseContact(`Jenny`);
 
+agenda.addContact(`Mario`,33333);
 
 agenda.showAllContacts();
 
